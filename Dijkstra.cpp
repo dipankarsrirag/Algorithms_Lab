@@ -76,7 +76,7 @@ int main(){
 
 	Graph g(v);
 
-  while(src != -1){
+  while(true){
     cout << "Enter source vertex:" << endl;
     cin >> src;
     if(src == -1)
