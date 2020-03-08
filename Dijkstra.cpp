@@ -29,7 +29,9 @@ public:
         adj[i][j] = 0;
   }
 
-	void addEdge(int u, int v, int cost) { adj[u][v] = cost; }
+	void addEdge(int u, int v, int cost) {
+		adj[u][v] = cost;
+	}
 
   int minDistance(){
 
