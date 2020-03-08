@@ -88,7 +88,7 @@ int main(){
     cin >> cost;
     g.addEdge(src,dest,cost);
   }
-  cout << "Source vertex: " << endl;
+  cout << "Source vertex:" << endl;
   cin >> src;
 
   g.Dijkstra(src);
