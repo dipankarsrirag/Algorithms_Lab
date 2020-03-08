@@ -1,6 +1,4 @@
 #include <iostream>
-#include <queue>
-#include <vector>
 using namespace std;
 
 class Graph{
@@ -14,7 +12,6 @@ public:
 	   this->V = V;
 
      adj = new int* [V];
-     dist = new int[V];
      par = new int[V];
      key = new int[V];
      mstSet = new bool[V];
