@@ -1,6 +1,4 @@
 #include <iostream>
-#include <queue>
-#include <vector>
 using namespace std;
 
 class Graph{
@@ -8,7 +6,6 @@ public:
 	int V;
   int **adj, *dist, *par;
   bool *sptSet;
-  queue <int> q;
 
   Graph(int V){
 	   this->V = V;
