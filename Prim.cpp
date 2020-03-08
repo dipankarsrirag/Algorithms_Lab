@@ -6,7 +6,7 @@ using namespace std;
 class Graph{
 public:
 	int V;
-  int **adj, *dist, *par, *key;
+  int **adj, *par, *key;
   bool *mstSet;
   queue <int> q;
 
